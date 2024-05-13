@@ -1,0 +1,84 @@
+*{
+    font-family: "Titillium Web", "Trebuchet MS", Helvetica, sans-serif;
+    /* max-width: 100%; */
+}
+body{
+    overflow-x: hidden;
+}
+
+a {
+    text-underline-offset: 5px;
+  }
+  /* Custom Font Weight */
+.cfw-1{
+    font-weight: 600;
+}
+.cfw-2{
+    font-weight: 900;
+}
+/* Background Image */
+.bg-image{
+    background-image: url('https://akhuwat.org.pk/wp-content/uploads/2020/08/element1bg-300x300.png');
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 100px 100px;
+}
+/* Slick Crousel */
+.slick-prev:before, .slick-next:before{
+    color: black !important;
+}
+/* Hr line */
+.hr-heading{
+    margin-bottom: -0.5%;
+}
+.hr-margin{
+    position: absolute;
+    left: -50%;
+    right: -50%;
+}
+.hr-line{
+    border-width: 2px;
+}
+.hr-margin:nth-child(2){
+    margin: 0.4% auto;
+}
+.hr-margin:nth-child(3){
+    margin: 0.8% auto;
+}
+/* Carousel */
+.carousel-control-next-icon {
+    padding: 24px 30px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.carousel-control-prev-icon {
+    padding: 24px 30px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev {
+    left: -75px;
+}
+
+/* Custom Bullet points */
+ul {
+    list-style: none;
+    padding-left: 5%;
+  }
+ul i{
+    padding-right: 5%;
+    color: green;
+}
+.custom-padding{
+    padding: 3rem;
+}
+/* Media Queries */
+@media screen and (max-width: 769px) {
+    .custom-padding{
+        padding: 0;
+    }
+}
